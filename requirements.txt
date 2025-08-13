@@ -1,0 +1,20 @@
+create folder about your project named like "my_project".
+
+open this folder in your terminal or command prompt.
+
+make directory which folder you want to create.
+#here I have create 4 folders: data, notebooks, scripts, models
+mkdir data notebooks scripts models
+#create a file named "README.md" and another file named "requirements.txt" in the root of your project folder.
+touch README.md requirements.txt
+#make a virtual environment in your project folder.
+python -m venv venv
+#activate the virtual environment
+venv\Scripts\activate
+#install necessary packages
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter streamlit
+
+download the dataset you want to use and put it in the "data" folder.
+#Go to your terminal or command prompt and run the following command to start Jupyter Notebook
+jupyter notebook
+
