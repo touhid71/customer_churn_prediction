@@ -6,7 +6,8 @@ make directory which folder you want to create.
 #here I have create 4 folders: data, notebooks, scripts, models
 mkdir data notebooks scripts models
 #create a file named "README.md" and another file named "requirements.txt" in the root of your project folder.
-touch README.md requirements.txt
+New-Item README.md -ItemType File
+New-Item requirements.txt -ItemType File
 #make a virtual environment in your project folder.
 python -m venv venv
 #activate the virtual environment
